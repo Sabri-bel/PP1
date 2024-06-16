@@ -13,9 +13,9 @@ h1, h2, h3 {
 }
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     color: #3a3a3a;
     font-family: Josefin Sans, sans-serif;
 }
@@ -25,8 +25,13 @@ header {
 }
 main {
     background-color: green;
+    flex: 1 0 auto;
+    flex-direction: column;
 }
 footer{
     background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
