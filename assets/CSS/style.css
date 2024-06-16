@@ -7,12 +7,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Josefin Sans, sans-serif;
-}
-
 h1, h2, h3 {
     font-family: Luckiest Guy, sans-serif;
     letter-spacing: 1px;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: Josefin Sans, sans-serif;
+}
+
+header {
+    background-color: aqua;
+}
+main {
+    background-color: green;
+}
+footer{
+    background-color: chocolate;
+}
+
