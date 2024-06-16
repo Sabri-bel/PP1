@@ -12,6 +12,7 @@ h1, h2, h3 {
     letter-spacing: 1px;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,21 @@ body {
 
 header {
     background-color: aqua;
+    padding: 5px;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+#navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px
+}
+.active {
+    text-decoration: underline;
 }
 main {
     background-color: green;
