@@ -48,7 +48,7 @@ main {
 
 /*home page */
 #sushi-plate {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background: url(../images/sushi-plate.jpg) no-repeat center center/cover;
 }
@@ -101,7 +101,11 @@ footer{
 
 /*larger screen adjustment*/
 @media screen and (min-width:768px) {
-    
+    #navigation {
+        font-size: 120%;
+        padding: 10px;
+    }
+
     
 }
 @media screen and (min-width:992px) {
