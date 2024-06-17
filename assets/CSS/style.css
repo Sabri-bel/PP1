@@ -72,10 +72,14 @@ main {
 #fullname {
     padding: 1em;
 }
+#fullname input {
+    background: transparent;
+}
 
 #checkbox {
     padding: 1em;
 }
+
 .submit-button {
     padding: 3px;
     border-radius: 10%;
@@ -85,10 +89,7 @@ main {
     color: antiquewhite;
     padding: 10px;
 }
-.submit-button:hover {
-    background-color: azure;
-    color: black;
-}
+
 
 /*footer section*/ 
 footer{
@@ -98,3 +99,14 @@ footer{
     justify-content: space-evenly;
 }
 
+/*larger screen adjustment*/
+@media screen and (min-width:768px) {
+    
+    
+}
+@media screen and (min-width:992px) {
+    .submit-button:hover {
+        background: azure;
+        color: black;
+    }    
+}
