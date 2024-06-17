@@ -27,7 +27,35 @@
     </header>
     <main>
         <section id="sushi-bar">
-            
+            <!--submit form-->
+            <div id="fullname">
+                <form action="https://formdump.codeinstitute.net" method="post" id="subscribe-form">
+                <h2><i class="fa-solid fa-heart"></i>Subscribe to our channel!</h2>
+                <hr>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                <br>
+                <label for="email-address">Email</label>
+                <input type="email" name="email-address" id="email-address" placeholder="Email Address" required>
+            </div>
+            <hr>
+            <!--newsletter preferences-->
+            <div id="preference">
+                <h3>Are you interested in..</h3>
+                <label for="recipes">Recipes</label>
+                <input type="checkbox" name="recipes" id="recipes" value="recipes" required>
+                <label for="daily-news">Daily Newsletter</label>
+                <input type="checkbox" name="daily-news" id="daily-news" value="daily-news">
+                <label for="events">Latest Events</label>
+                <input type="checkbox" name="events" id="events" value="events">
+            </div>
+            <div id="submit">
+            <button type="submit" value="submit">Join Us!</button>
+            </div>
+        </form>
         </section>
 
     </main>
