@@ -20,7 +20,7 @@ body {
     color: rgb(230, 204, 204);
     font-family: Josefin Sans, sans-serif;
 }
-
+/*header section*/
 header {
     background-color: rgb(40, 51, 51);
     padding: 5px;
@@ -39,11 +39,30 @@ header a {
 .active {
     text-decoration: underline;
 }
+
+/*main section*/
 main {
-    background: url(../images/sushi-plate.jpg) no-repeat center/cover;
     flex: 1 0 auto;
     flex-direction: column;
 }
+
+/*home page */
+#sushi-plate {
+    height: 600px;
+    width: 100%;
+    background: url(../images/sushi-plate.jpg) no-repeat center center/cover;
+}
+
+
+/*subscribe page*/
+#sushi-bar {
+    height: 600px;
+    width: 100%;
+    background: url(../images/sushi-bar.jpg) no repeat center center/cover;
+    flex: 1 0 auto;
+}
+
+/*footer section*/ 
 footer{
     background-color: chocolate;
     display: flex;
