@@ -24,6 +24,8 @@ body {
 header {
     background-color: rgb(40, 51, 51);
     padding: 5px;
+    width: 100%;
+
 }
 header a {
     text-decoration: none;
@@ -34,10 +36,10 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5px
+    padding: 1em;
 }
 .active {
-    text-decoration: underline;
+    border-bottom: solid grey 2px;
 }
 
 /*main section*/
@@ -97,6 +99,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    min-height: 50px;
 }
 
 /*larger screen adjustment*/
@@ -105,8 +108,25 @@ footer{
         font-size: 120%;
         padding: 10px;
     }
+    #form-subscribe {
+        background-color: rgba(56, 56, 56, 0.8);
+        min-height: 350px;
+        padding: 3em;  
+        top: 15em; 
+        left: 10em;
+        bottom: 350px;
+        position: absolute;
+    }
+    .fields {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fields input {
+        padding-top: 5px;
+    }  
 
-    
 }
 @media screen and (min-width:992px) {
     .submit-button:hover {
