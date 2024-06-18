@@ -134,10 +134,15 @@ footer{
 
 }
 @media screen and (min-width:992px) {
+    #navigation a:hover {
+        color: palevioletred;
+    }
+
     .submit-button:hover {
         background: azure;
         color: black;
-    }    
+    }  
+    
     #form-subscribe {
         min-height: 350px;
         padding: 3em;  
@@ -145,5 +150,8 @@ footer{
         left:30vw;
         bottom: 350px;
         position: absolute;
+    }
+    #form-subscribe input:hover {
+        background: whitesmoke;
     }
 }
