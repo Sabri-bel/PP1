@@ -92,6 +92,10 @@ main {
     padding: 10px;
 }
 
+hr {
+    border-top: 1px solid rgb(230, 204, 204);
+    margin-top: 20px;
+}
 
 /*footer section*/ 
 footer{
