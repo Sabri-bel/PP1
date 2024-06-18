@@ -101,6 +101,11 @@ footer{
     justify-content: space-evenly;
     min-height: 50px;
 }
+#social-media i {
+    padding: 5%;
+    font-size: 200%;
+    color: rgb(230, 204, 204);
+}
 
 /*larger screen adjustment*/
 @media screen and (min-width:768px) {
