@@ -133,4 +133,12 @@ footer{
         background: azure;
         color: black;
     }    
+    #form-subscribe {
+        min-height: 350px;
+        padding: 3em;  
+        top: 15em; 
+        left:30vw;
+        bottom: 350px;
+        position: absolute;
+    }
 }
