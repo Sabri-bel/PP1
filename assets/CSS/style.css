@@ -126,13 +126,10 @@ footer{
         padding: 10px;
     }
     #form-subscribe {
-        background-color: rgba(56, 56, 56, 0.8);
-        min-height: 350px;
-        padding: 3em;  
+        min-height: 400px;
         top: 15em; 
         left: 10em;
         bottom: 350px;
-        position: absolute;
     }
     .fields {
         display: flex;
@@ -159,12 +156,12 @@ footer{
     }  
     
     #form-subscribe {
-        min-height: 350px;
+        min-height: 460px;
         padding: 3em;  
         top: 15em; 
         left:30vw;
         bottom: 350px;
-        position: absolute;
+
     }
     #form-subscribe input:hover {
         background: whitesmoke;
