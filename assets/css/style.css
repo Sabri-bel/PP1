@@ -137,6 +137,29 @@ footer{
         font-size: 120%;
         padding: 10px;
     }
+
+    /*home page*/
+    #sushi-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #sushi-box div {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2em;
+        margin-top: 3em;
+    }
+    #chirashi, #temaki {
+        align-self: flex-end;
+    }
+
+    /*form page*/
     #form-subscribe {
         min-height: 25rem;
         top: 15em; 
@@ -156,7 +179,9 @@ footer{
         margin-top: 5px;
         margin-bottom: 15px;
     }
+
 }
+    
 @media screen and (min-width:992px) {
     #navigation a:hover {
         color: palevioletred;
