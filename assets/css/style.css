@@ -49,6 +49,12 @@ main {
 }
 
 /*home page */
+.background h1, .background h2 {
+    font-size: 200%;
+    padding-bottom: 1rem;
+    border-top: 1rem;
+  }
+  
 #sushi-plate {
     min-height: 100vh;
     width: 100%;
@@ -139,6 +145,7 @@ footer{
     }
 
     /*home page*/
+    
     #sushi-box {
         display: flex;
         flex-wrap: wrap;
@@ -154,9 +161,6 @@ footer{
         align-items: center;
         margin-left: 2em;
         margin-top: 3em;
-    }
-    #chirashi, #temaki {
-        align-self: flex-end;
     }
 
     /*form page*/
