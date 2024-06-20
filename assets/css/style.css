@@ -40,7 +40,7 @@ header a {
 }
 .active {
     background-color: #406a62;
-    padding: 1em 2em;
+    padding: 0.6em 1.5em;
     border-radius: 10%;
 }
 
@@ -211,9 +211,15 @@ footer{
     #navigation a:hover {
         color: palevioletred;
     }
-
+    .active {
+        background-color: #406a62;
+        padding: 1em 2em;
+    }
+    #sushi-plate {
+        min-height: 87vh;
+    }
     #sushi-bar {
-        min-height: 89vh;
+        min-height: 87vh;
     }  
 
     .submit-button:hover {
