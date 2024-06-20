@@ -201,6 +201,8 @@ footer{
         margin-top: 5px;
         margin-bottom: 15px;
     }
+
+    /*footer section*/
     #footer {
         min-height: 52px;
     }
@@ -208,6 +210,8 @@ footer{
 }
     
 @media screen and (min-width:992px) {
+
+    /*header section*/
     #navigation a:hover {
         color: palevioletred;
     }
@@ -215,9 +219,13 @@ footer{
         background-color: #406a62;
         padding: 1em 2em;
     }
+
+    /*main section*/
     #sushi-plate {
         min-height: 87vh;
     }
+    
+    /*subscribe section*/
     #sushi-bar {
         min-height: 87vh;
     }  
