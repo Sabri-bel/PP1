@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: rgb(230, 204, 204);
+    color: rgb(233, 241, 236);
     font-family: Josefin Sans, sans-serif;
 }
 /*header section*/
@@ -39,7 +39,9 @@ header a {
     padding: 1em;
 }
 .active {
-    border-bottom: solid grey 2px;
+    background-color: #406a62;
+    padding: 1em 2em;
+    border-radius: 10%;
 }
 
 /*main section*/
@@ -56,19 +58,18 @@ main {
   }
   
 #sushi-plate {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background: url(../images/japan-street.jpg) no-repeat center center/cover;
 }
 .background {
-    background-color: rgba(56, 56, 56, 0.8);
+    background-color: rgba(27, 27, 27, 0.8);
     padding: 2em;
     margin: 0 1em 1em;
 }
 .background p {
     line-height: 20px;
   }
-  
 .sushi-block p {
   line-height: 21px;
 }
@@ -88,7 +89,7 @@ main {
 /*subscribe page*/
 
 #sushi-bar {
-    height: 100vh;
+    min-height: 83vh;
     width: 100%;
     background: url(../images/sushi-bar.jpg) no-repeat center center/cover;
 
@@ -178,6 +179,9 @@ footer{
     }
 
     /*form page*/
+    #sushi-bar {
+        min-height: 87vh;
+    }   
     #form-subscribe {
         min-height: 25rem;
         top: 15em; 
@@ -197,6 +201,9 @@ footer{
         margin-top: 5px;
         margin-bottom: 15px;
     }
+    #footer {
+        min-height: 52px;
+    }
 
 }
     
@@ -204,6 +211,10 @@ footer{
     #navigation a:hover {
         color: palevioletred;
     }
+
+    #sushi-bar {
+        min-height: 89vh;
+    }  
 
     .submit-button:hover {
         background: azure;
