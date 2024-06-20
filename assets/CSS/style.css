@@ -75,7 +75,7 @@ main {
     padding: 1em;
 }
 #fullname input {
-    background: transparent;
+    background: rgba(179, 178, 178, 0.6);
 }
 
 #checkbox {
@@ -98,6 +98,7 @@ label, input {
 input {
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 2px 8px;
 }
 
 hr {
