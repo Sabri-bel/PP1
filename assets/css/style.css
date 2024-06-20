@@ -1,0 +1,171 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Luckiest+Guy&display=swap');
+
+/*remove all defaults browser settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-family: Luckiest Guy, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(230, 204, 204);
+    font-family: Josefin Sans, sans-serif;
+}
+/*header section*/
+header {
+    background-color: rgb(40, 51, 51);
+    padding: 5px;
+    width: 100%;
+
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+#navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.active {
+    border-bottom: solid grey 2px;
+}
+
+/*main section*/
+main {
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+/*home page */
+#sushi-plate {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/sushi-plate.jpg) no-repeat center center/cover;
+}
+
+
+/*subscribe page*/
+
+#sushi-bar {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/sushi-bar.jpg) no-repeat center center/cover;
+
+}
+#form-subscribe {
+    background-color: rgba(56, 56, 56, 0.8);
+    min-height: 200px;
+    padding: 3em;  
+    bottom: 5em; 
+    position: absolute;
+}
+#fullname {
+    padding: 1em;
+}
+#fullname input {
+    background: rgba(179, 178, 178, 0.6);
+}
+
+#checkbox {
+    padding: 1em;
+}
+
+.submit-button {
+    padding: 3px;
+    border-radius: 10%;
+    font-family: inherit;
+    background-color: rgba(56, 56, 56, 0.8);
+    font-size: larger;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+label, input {
+    display: block;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px 8px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+hr {
+    border-top: 1px solid rgb(230, 204, 204);
+    margin-top: 20px;
+}
+
+/*footer section*/ 
+footer{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 50px;
+}
+#social-media i {
+    padding: 5%;
+    font-size: 200%;
+    color: rgb(230, 204, 204);
+}
+
+/*larger screen adjustment*/
+@media screen and (min-width:768px) {
+    #navigation {
+        font-size: 120%;
+        padding: 10px;
+    }
+    #form-subscribe {
+        min-height: 400px;
+        top: 15em; 
+        left: 10em;
+        bottom: 350px;
+    }
+    .fields {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fields input {
+        padding-top: 5px;
+    }  
+    input {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:992px) {
+    #navigation a:hover {
+        color: palevioletred;
+    }
+
+    .submit-button:hover {
+        background: azure;
+        color: black;
+    }  
+    
+    #form-subscribe {
+        min-height: 460px;
+        padding: 3em;  
+        left:30vw;
+        bottom: 350px;
+
+    }
+    #form-subscribe input:hover {
+        background: whitesmoke;
+    }
+}
