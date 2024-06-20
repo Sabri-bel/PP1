@@ -99,6 +99,8 @@ input {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 2px 8px;
+    font-family: inherit;
+    font-size: 1em;
 }
 
 hr {
