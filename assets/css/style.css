@@ -97,6 +97,14 @@ main {
     max-width: 100%;
     line-height: 1em;
 }
+#love-it {
+    background-color: #406a62;
+    padding: 1em;
+}
+#love-it p {
+    padding: 10px;
+    font-size: 120%;
+}
 
 
 /*subscribe page*/
@@ -250,7 +258,7 @@ footer{
     #images {
         column-count: 3;
     }
-    
+
     /*subscribe section*/
 
     #sushi-bar {
