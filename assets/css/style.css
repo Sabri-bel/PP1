@@ -7,11 +7,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1, h2, h3 {
-    font-family: Luckiest Guy, sans-serif;
-    letter-spacing: 1px;
-}
-
 
 body {
     display: flex;
@@ -20,6 +15,12 @@ body {
     color: rgb(233, 241, 236);
     font-family: Josefin Sans, sans-serif;
 }
+
+h1, h2, h3 {
+    font-family: Luckiest Guy, sans-serif;
+    letter-spacing: 1px;
+}
+
 /*header section*/
 header {
     background-color: rgb(40, 51, 51);
@@ -51,6 +52,15 @@ main {
 }
 
 /*home page */
+.background {
+    background-color: rgba(27, 27, 27, 0.8);
+    padding: 2em;
+    margin: 0 1em 1em;
+}
+.background p {
+    line-height: 20px;
+  }
+
 .background h1, .background h2 {
     font-size: 200%;
     padding-bottom: 1rem;
@@ -62,35 +72,32 @@ main {
     width: 100%;
     background: url(../images/japan-street.jpg) no-repeat center center/cover;
 }
-.background {
-    background-color: rgba(27, 27, 27, 0.8);
-    padding: 2em;
-    margin: 0 1em 1em;
-}
-.background p {
-    line-height: 20px;
-  }
-.sushi-block p {
-  line-height: 21px;
-}
 .sushi-block {
     background-color: rgba(40, 51, 51, 0.8);
     padding: 1rem 2rem;
     border-radius: 10%;
     margin-bottom: 2rem;
 }
-.sushi-block p {
-    line-height: 21px;
-  }
 
-  .sushi-block h3 {
+.sushi-block p {
+  line-height: 21px;
+}
+
+.sushi-block h3 {
     padding-bottom: 10px;
   }
+
 /*Gallery page*/
+
+#images {
+    line-height: 0;
+}
+
 #images img {
     max-width: 100%;
     line-height: 1em;
 }
+
 
 /*subscribe page*/
 
@@ -184,7 +191,15 @@ footer{
         margin-top: 3em;
     }
 
+    /*Gallery page*/
+
+    #images {
+        column-count: 2;
+        column-gap: 0;
+    }
+
     /*form page*/
+
     #sushi-bar {
         min-height: 87vh;
     }   
@@ -226,12 +241,18 @@ footer{
         padding: 1em 2em;
     }
 
-    /*main section*/
+    /*home page section*/
+
     #sushi-plate {
         min-height: 87vh;
     }
+    /*gallery section*/
+    #images {
+        column-count: 3;
+    }
     
     /*subscribe section*/
+
     #sushi-bar {
         min-height: 87vh;
     }  
