@@ -49,6 +49,7 @@ header a {
 main {
     flex: 1 0 auto;
     flex-direction: column;
+    background-color: #406a62;
 }
 
 /*home page */
@@ -174,6 +175,7 @@ footer{
 }
 
 /*larger screen adjustment*/
+
 @media screen and (min-width:768px) {
     #navigation {
         font-size: 120%;
@@ -212,10 +214,11 @@ footer{
         min-height: 87vh;
     }   
     #form-subscribe {
-        min-height: 25rem;
+        min-height: 32rem;
         top: 15em; 
         left: 10em;
         bottom: 350px;
+        padding: 2em;
     }
     .fields {
         display: flex;
@@ -271,7 +274,7 @@ footer{
     }  
     
     #form-subscribe {
-        min-height: 460px;
+        min-height: 500px;
         padding: 3em;  
         left:30vw;
         bottom: 350px;
