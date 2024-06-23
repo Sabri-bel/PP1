@@ -13,11 +13,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: rgb(233, 241, 236);
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: Luckiest Guy, sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
     letter-spacing: 1px;
 }
 
