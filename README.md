@@ -1,5 +1,7 @@
 # Sushi lovers
 
+__link__ : https://sabri-bel.github.io/PP1/index.html
+
 ## Overview 
 The target of this website is people who loves sushi and want to know a bit of additional information.
 The fist time users can learn more about the different type of sushi, and they can decide to visit the website again to check the images from other users.
@@ -45,7 +47,7 @@ No errors were returned when passing through the official validator
 
 ## Deployment
 
-ThisThins site was deployed to GitHub pages. 
+This website was deployed to GitHub pages. 
 The steps to deploy are the following: 
 - I the left side of the Dashboard, locate the Sabri-bel/PP1 repository
 - In the repository, click the Settings tab 
@@ -54,8 +56,16 @@ The steps to deploy are the following:
 - Return to the "code" Repository tab and select "deployments"
 - From the list, select the deployment.
 
-__link__ : https://sabri-bel.github.io/PP1/index.html
 
+
+## Credits
+### Content
+The information for the homepage was taken from webstaurantstore.com and Wikipedia
+
+### Media and images
+- The photos used for the backgroud of the home and the subscribe page are from Unsplash
+- The images used for the gallery page were taken from Unsplash
+- The icons in the footer and in the headers were taken from Font Awesome
 
 
 
@@ -65,15 +75,8 @@ am i responsive
 
 screenshots
 
-credits for content and media
-example:
-Content
 
-    The text for the Home page was taken from Wikipedia Article A
-    Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-    The icons in the footer were taken from Font Awesome
 
 Media
 
-    The photos used on the home and sign up page are from This Open Source site
-    The images used for the gallery page were taken from this other open source site
+
