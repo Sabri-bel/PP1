@@ -7,6 +7,9 @@ The target of this website is people who loves sushi and want to know a bit of a
 The fist time users can learn more about the different type of sushi, and they can decide to visit the website again to check the images from other users.
 It is also possible to signup to a newsletter, subscribe for different interests or access to the social pages directly from the footer links.
 
+![image from am i responsive website](/assets/media/responsive.png)
+
+
 ## Features
 ### 1. Features available in each page:
 
@@ -71,7 +74,7 @@ The information for the homepage was taken from webstaurantstore.com and Wikiped
 
 bug and unfixed bug ?
 
-am i responsive 
+
 
 screenshots
 
