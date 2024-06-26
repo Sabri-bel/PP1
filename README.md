@@ -3,9 +3,10 @@
 __link__ : https://sabri-bel.github.io/PP1/index.html
 
 ## Overview 
-The target of this website is people who loves sushi and want to know a bit of additional information.
-The fist time users can learn more about the different type of sushi, and they can decide to visit the website again to check the images from other users.
-It is also possible to signup to a newsletter, subscribe for different interests or access to the social pages directly from the footer links.
+This website was created for provide more information about sushi, it is designed for people who loves sushi and want to know a bit more.
+As a first time users, it can be useful for someone how can learn more about the different type of sushi, and subscribe to a little community of sushi lovers. 
+Is it also possible to visit the website again and check new images from other users.
+About the newsletter, user can decide to subscribe for one or more interests or access to the official social pages directly from the footer links.
 
 ![image from am i responsive website](/assets/media/responsive.png)
 
@@ -72,14 +73,5 @@ The information for the homepage was taken from webstaurantstore.com and Wikiped
 
 
 
-bug and unfixed bug ?
-
-
-
-screenshots
-
-
-
-Media
 
 
