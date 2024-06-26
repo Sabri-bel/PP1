@@ -18,7 +18,12 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 
 - __Navigation Bar__ that allow the user to navigate between the contents easily
 
+![image of header and nav](/assets/media/header.png)
+
+
 - __Footer__ that contain links to redirect the user to the social network 
+
+![image of footer with social links](/assets/media/footer.png)
 
 ### 2. Specific Features
 
@@ -27,6 +32,8 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 - __Gallery Section__ contain generic photos and can be implemented with users images as well
 
 - __Subscribe Section__ it will register the user to a newsletter. customer can decide to opt in to one or all the subsection proposed.
+
+
 
 
 
