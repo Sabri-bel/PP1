@@ -14,8 +14,6 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 ## Features
 ### 1. Features available in each page:
 
-- __Responsive header__ that allow the user to come back to the home page directly by clicking the header
-
 - __Navigation Bar__ that allow the user to navigate between the contents easily
 
 ![image of header and nav](/assets/media/header.png)
@@ -29,9 +27,15 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 
 - __Home Page__ that provide useful information about sushi
 
+![image of home](/assets/media/home.png)
+
 - __Gallery Section__ contain generic photos and can be implemented with users images as well
 
+![image of the gallery](/assets/media/gallery.png)
+
 - __Subscribe Section__ it will register the user to a newsletter. customer can decide to opt in to one or all the subsection proposed.
+
+![image of the subscribe section](/assets/media/subscribe-form.png)
 
 
 
@@ -52,9 +56,15 @@ The design of the website use a mix of relevant images, background color and it 
 ### Validator Testing
 * HTML 
 No errors were returned when passing through the official W3C validator
+
+![image of validator HTML-home](/assets/media/validator-home.png)
+![image of validator HTML-gallery](/assets/media/gallery%20validator%20.png)
+![image of validator HTML-subscribe](/assets/media/subscribe%20validator%20.png)+
+
 * CSS 
 No errors were returned when passing through the official validator
 
+![image of CSS validator](/assets/media/css%20validator.png)
 
 ## Deployment
 
