@@ -10,6 +10,9 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 
 ![image from "am i responsive" website](assets/media/responsive.png)
 
+## Design
+The design of the website use a mix of relevant images, green and orange background color 
+It can adapt to the size of the screen in use for styling purposes.
 
 ## Features
 ### 1. Features available in each page:
@@ -44,9 +47,6 @@ About the newsletter, user can decide to subscribe for one or more interests or 
 
 
 
-## Design
-The design of the website use a mix of relevant images, green and orange background color 
-It can adapt to the size of the screen in use for styling purposes.
 
 ## Tecnology Used
 
