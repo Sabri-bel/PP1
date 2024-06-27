@@ -118,7 +118,7 @@ main {
 /*subscribe page*/
 
 #sushi-bar {
-    min-height: 83vh;
+    min-height: 72vh;
     width: 100%;
     background: url(../images/sushi-bar.jpg) no-repeat center center/cover;
     margin-top: 4em;
@@ -220,7 +220,6 @@ footer{
     /*form page*/
 
     #sushi-bar {
-        min-height: 87vh;
         margin-top: 11em;
         background-image: none;
     }   
@@ -274,10 +273,6 @@ footer{
     }
 
     /*subscribe section*/
-
-    #sushi-bar {
-        min-height: 87vh;
-    }  
 
     .submit-button:hover {
         background: azure;
