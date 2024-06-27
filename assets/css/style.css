@@ -222,6 +222,7 @@ footer{
     #sushi-bar {
         min-height: 87vh;
         margin-top: 11em;
+        background-image: none;
     }   
     #form-subscribe {
         min-height: 32rem;
